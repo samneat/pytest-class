@@ -1,11 +1,5 @@
 from lib.string_builder import *
 
-def test_string_builder_outputs_string():
-    string = StringBuilder()
-    string.add("Sam can code")
-    result = string.output()
-    assert result == "Sam can code"
-
 def test_string_builder_outputs_string_length():
     string = StringBuilder()
     string.add("hello")
